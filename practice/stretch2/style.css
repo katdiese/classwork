@@ -1,0 +1,17 @@
+* {
+	font-family: arial;
+}
+img {
+	padding: 5em 0 2.5em 0;
+	display: block;
+	max-width: 40em;
+	margin: auto;
+}
+.title{
+	font-size: 1.5em;
+	margin-left: 10px;
+}
+.dog {
+	color: #FF69B4;
+	text-align: center;
+}

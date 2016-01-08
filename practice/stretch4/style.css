@@ -1,0 +1,26 @@
+
+body {
+	margin-left: 5em;
+	font-family: sans-serif;
+}
+h1 {
+	color: orange;
+}
+input[type=text] {
+	border: 2px solid black;
+}
+#checkbox {
+	outline: 1px solid purple;
+
+}
+p {
+	display: inline-block;
+	color: purple;
+}
+.submit {
+	background-color: #f1c40f;
+	padding: .25em;
+	border: 2px solid black;
+	text-decoration: none;
+	box-shadow: 5px 4px 1px 1px black
+}
