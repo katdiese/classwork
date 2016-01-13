@@ -6,6 +6,7 @@ A local chain of candy stores has hired you to draw conclusions from their sales
 
 #### Let's practice reading values from the data
  - How would I access the value '4.63' from store1?
+ //console.log(store1['2015-01-08'][0][1]);
  - What about the cost of 'Dark Chocolate Crunchies' from store4?
  - Now get the sale dates for 'Banana Bunches' from store2.
  - What built-in array property would I use to determine how many sale dates there for store2's 'Banana Bunches'?
