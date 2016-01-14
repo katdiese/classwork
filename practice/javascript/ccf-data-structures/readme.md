@@ -32,6 +32,7 @@ A local chain of candy stores has hired you to draw conclusions from their sales
  //pb.push('2015-8-26', '2015-12-26');
  //Did not change because the original value was not changed, just a variable copy.
  - Use `Array.pop()` to remove one of the sale dates for store2's Caramel Twists.
+ //console.log(store2['sale dates']['Peanut Butter Buttered Peanuts'].pop());
  - Set a variable equal to Berry Bites data for store3 on January 7. (Spoiler... `var berryBitesData = store3[1]['inventory sold']['Berry Bites'])
  - Use your new variable to modify the quantity sold. Do you expect the store3 variable to have changed? Why?
 
