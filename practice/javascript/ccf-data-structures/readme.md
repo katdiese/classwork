@@ -8,17 +8,29 @@ A local chain of candy stores has hired you to draw conclusions from their sales
  - How would I access the value '4.63' from store1?
  //console.log(store1['2015-01-08'][0][1]);
  - What about the cost of 'Dark Chocolate Crunchies' from store4?
+ //$4.34
  - Now get the sale dates for 'Banana Bunches' from store2.
+ //[ '2015-01-10', '2015-01-10' ]
  - What built-in array property would I use to determine how many sale dates there for store2's 'Banana Bunches'?
+ //.length;
  - Use the same property to count the total number of 'Berry Bites' sold by store4.
+ //console.log(store4['Berry Bites']['sold on'].length);
  - Create a variable to store the name of a candy (such as `var candy = 'Caramel Twists'`). Use this variable to access the sale dates for that candy in store 2.
+//var candy = 'Berry Bites'
+//console.log(store2['sale dates'][candy]);
  - Update the previous candy name variable to a different candy. How did that change the sale date data ouput?
+ //Changed the sales data, accessed a different candy
 
 #### Now let's try updating some values:
  - Set a variable to equal the prices of the 'Mint Wafers' in store2. (Spoiler warning... `var mintWafersCost = store2['inventory prices']['Mint Wafers']`)
+ //var mintPrice = store2['inventory prices']['Mint Wafers']
  - When you update your new variable, does the price in the store2 data change? Why?
+ //no, it is an immutable value
  - Now set a variable equal to the Peanut Butter Buttered Peanuts sale dates in store2. (Spoiler... `var pbbpSaleDates = store2['sale dates']`)
+ //var pb = store2['sale dates']['Peanut Butter Buttered Peanuts'];
  - Use the `Array.push()` method to add two sale dates to the pbbpSaleDates variable. Does the original store 2 data change? Why?
+ //pb.push('2015-8-26', '2015-12-26');
+ //Did not change because the original value was not changed, just a variable copy.
  - Use `Array.pop()` to remove one of the sale dates for store2's Caramel Twists.
  - Set a variable equal to Berry Bites data for store3 on January 7. (Spoiler... `var berryBitesData = store3[1]['inventory sold']['Berry Bites'])
  - Use your new variable to modify the quantity sold. Do you expect the store3 variable to have changed? Why?

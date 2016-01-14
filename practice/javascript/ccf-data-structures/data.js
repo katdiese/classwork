@@ -251,4 +251,7 @@ var store4 = {
       }
 }
 
-console.log(store1['2015-01-08'][0][1]);
+
+console.log(store2['sale dates']['Peanut Butter Buttered Peanuts'].pop());
+
+
