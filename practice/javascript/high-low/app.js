@@ -8,15 +8,19 @@ console.log(alreadyGuessed);
 
 function compare() {
 	var isNumber = (parseInt(guess.value));
+	function logGuess() {
+		alreadyGuessed.innerHTML = alreadyGuessed.innerHTML + isNumber + ", ";
+	}
 	console.log(isNumber);
 	if(isNumber < randomNum) {
 		// console.log("Too Low!");
 		feedback.innerHTML = "Too low!!";
-		alreadyGuessed.innerHTML = alreadyGuessed.innerHTML + isNumber + ", ";
+		logGuess();
 	}
 	else if(isNumber > randomNum) {
 		// console.log("Too High!");
 		feedback.innerHTML = "Too high!!";
+		logGuess();
 	}
 	else if(isNumber === randomNum) {
 		// console.log("That's it! You win.");
