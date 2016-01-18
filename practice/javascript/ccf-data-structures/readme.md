@@ -35,6 +35,7 @@ A local chain of candy stores has hired you to draw conclusions from their sales
  //console.log(store2['sale dates']['Peanut Butter Buttered Peanuts'].pop());
  - Set a variable equal to Berry Bites data for store3 on January 7. (Spoiler... `var berryBitesData = store3[1]['inventory sold']['Berry Bites'])
  - Use your new variable to modify the quantity sold. Do you expect the store3 variable to have changed? Why?
+ //3 Berry Bites sold, the variable doesn't change because we did not change it, we simply used it to access a value
 
 #### Now let's loop over some of the data:
  - Create a loop to read which candies were sold by store1 on Jan 8. After simply outputting the data, try creating an array that contains the candy names.

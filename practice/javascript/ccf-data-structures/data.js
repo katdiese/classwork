@@ -251,7 +251,10 @@ var store4 = {
       }
 }
 
+var berryBitesData = store3[1]['inventory sold']['Berry Bites'];
 
-console.log(store2['sale dates']['Peanut Butter Buttered Peanuts'].pop());
+console.log(berryBitesData['quantity']);
+
+//console.log(store2['sale dates']['Peanut Butter Buttered Peanuts'].pop());
 
 
