@@ -24,7 +24,8 @@ function compare() {
 	}
 	else if(isNumber === randomNum) {
 		// console.log("That's it! You win.");
-		feedback.innerHTML = "That's it! You win.";
+		feedback.innerHTML = "";
+		alert("You Win!");
 	}
 	else {
 		// console.log("Please enter a number between 1 and 100");
