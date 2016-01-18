@@ -251,9 +251,9 @@ var store4 = {
       }
 }
 
-var berryBitesData = store3[1]['inventory sold']['Berry Bites'];
-
-console.log(berryBitesData['quantity']);
+for(key in store1) {
+  console.log(store1[0]);
+}
 
 //console.log(store2['sale dates']['Peanut Butter Buttered Peanuts'].pop());
 
