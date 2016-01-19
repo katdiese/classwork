@@ -251,10 +251,21 @@ var store4 = {
       }
 }
 
-for(key in store1) {
-  console.log(store1[0]);
+
+
+var solution = {};
+var keys = Object.keys(store1);
+var key1 = [];
+var value = [];
+
+for(i = 0; i < keys.length; i++) {
+  var count = store1[keys[i]];
+  for(x = 0; x < count.length; x++) {
+    key1.push(count[x][0])
+    value.push(count[x][2]);
+  }
 }
-
-//console.log(store2['sale dates']['Peanut Butter Buttered Peanuts'].pop());
-
-
+for(i = 0; i < value.length; i++) {
+  solution[key1[i]] = value[i];
+}
+console.log(solution);
