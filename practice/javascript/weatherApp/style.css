@@ -14,11 +14,11 @@ body {
 .announce {
   font-size: 2.5em;
 }
-form {
+.newCity {
   max-width: 35em;
   margin: auto;
 }
-input {
+input, button {
   width: 50em;
   height: 2em;
   margin: 0.2em;
