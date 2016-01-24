@@ -75,7 +75,7 @@ var sandwich = function() {
   this.eat = function() {
     while(this.amountOfSandwich > 0) {
       this.amountOfSandwich = this.amountOfSandwich - 10;
-      console.log(this.amountOfSandwich);
+      console.log(this.amountOfSandwich + "% of the sandwich is left" + '\n');
     }
     console.log("the sandwich is gone :(")
   }
@@ -88,7 +88,7 @@ vegetarianSandwich.grilledCheese();
 mySandwich.addMeat("bacon");
 mySandwich.addCheese("provolone, swiss");
 meatySandwich.addMeat("ham, roast beef, chicken breast");
+// console.log(vegetarianSandwich);
+// console.log(mySandwich);
 mySandwich.eat();
-console.log(vegetarianSandwich);
-console.log(mySandwich);
 
