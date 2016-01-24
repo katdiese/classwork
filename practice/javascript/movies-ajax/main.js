@@ -1,12 +1,16 @@
 $(document).ready(function(){
-  function getMovies(keyword) {
-    var url='http://www.omdbapi.com/?s=' + keyword + '&r=json';
 
-    return $.get(url)
+  $('form').on('submit', function(e){
+    e.preventDefault();
+    $('#results').empty();
+    var keyword = $('input').val();
+    var url='http://www.omdbapi.com/?s=' + keyword + '&r=json';
+    $.get(url)
       .done(function(res) {
-        return res;
+        res.Search.forEach(function(obj){
+          $('#results').append('<img src=' + obj.Poster + '>');
+        });
+        console.log(res);
       });
-      return response;
-  }
-  console.log(getMovies('star'));
+  });
 });
