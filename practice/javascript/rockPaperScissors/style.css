@@ -1,0 +1,19 @@
+img {
+  height: 200px;
+  width: 200px;
+  float: left;
+  padding: 10px;
+  border: 1px solid black;
+}
+.score {
+  margin-left: 75%;
+}
+
+button {
+  margin-left: 75%;
+  border-radius: 5px;
+  height: 100px;
+  width: 200px;
+  background-color: pink;
+
+}
