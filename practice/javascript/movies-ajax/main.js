@@ -5,6 +5,8 @@ $(document).ready(function(){
     $('#results').empty();
     var keyword = $('input').val();
     var url='http://www.omdbapi.com/?s=' + keyword + '&r=json';
+
+
     $.get(url)
       .done(function(res) {
         res.Search.forEach(function(obj){
